@@ -17,6 +17,15 @@ The pipeline consists of three main stages:
 2. Modeling — training multiple extraction models
 3. Evaluation — comparison between deep learning and rule-based approaches
 
+## Final Method Comparison
+
+| Model         | Precision | Recall | F1 Score |
+| ------------- | --------- | ------ | -------- |
+| IndoLegalBERT | 0.94      | 0.89   | 0.93     |
+| Rule-Based    | 0.69      | 0.57   | 0.60     |
+
+IndoLegalBERT significantly outperformed the rule-based approach, demonstrating superior contextual understanding and entity extraction capability on Indonesian legal texts.
+
 ## Dataset
 
 * Indonesian criminal court verdict documents
