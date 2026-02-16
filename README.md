@@ -26,6 +26,26 @@ The pipeline consists of three main stages:
 
 IndoLegalBERT significantly outperformed the rule-based approach, demonstrating superior contextual understanding and entity extraction capability on Indonesian legal texts.
 
+## Example Extraction Output
+
+The following example illustrates a prediction case from the IndoLegalBERT model.
+
+**Input Sample**
+
+```
+(Excerpt from Indonesian legal verdict document)
+```
+
+**Ground Truth vs Model Prediction**
+
+| Entity            | Ground Truth                            | IndoLegalBERT                           |
+| ----------------- | --------------------------------------- | --------------------------------------- |
+| NOMOR_PUTUSAN     | 691 K/PID/2015                          | 691 K/PID/2015                          |
+| LOKASI_PENGADILAN | Pengadilan Negeri Bale Bandung          | —                                       |
+| NAMA_HAKIM        | Dr. H. Andi Abu Ayyub Saleh, S.H., M.H. | Dr. H. Andi Abu Ayyub Saleh, S.H., M.H. |
+
+This example highlights that while the model correctly identifies most entities, it may still miss certain location-related information, indicating areas for future improvement.
+
 ## Dataset
 
 The dataset consists of Indonesian criminal court verdict documents in unstructured text format.
