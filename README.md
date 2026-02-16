@@ -6,6 +6,12 @@ This project builds an automated system to extract structured information from I
 
 The objective is to transform unstructured legal text into usable structured data for faster legal analysis.
 
+## Project Pipeline
+
+The workflow of the legal entity extraction system is illustrated below:
+
+![Pipeline](assets/pipeline.png)
+
 ## Dataset
 
 * Indonesian criminal court verdict documents
