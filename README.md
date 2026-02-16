@@ -1,4 +1,4 @@
-# Legal Entity Extraction using NLP & Deep Learning
+# Legal Entity Extraction from Indonesian Court Verdicts using NLP & Deep Learning
 
 ## Overview
 
@@ -28,9 +28,10 @@ IndoLegalBERT significantly outperformed the rule-based approach, demonstrating 
 
 ## Dataset
 
-* Indonesian criminal court verdict documents
-* Unstructured text format
-* Used for academic research purposes
+The dataset consists of Indonesian criminal court verdict documents in unstructured text format.
+Documents were manually cleaned and annotated for Named Entity Recognition experiments.
+
+The dataset is included for academic and reproducibility purposes.
 
 ## Models Implemented
 
@@ -42,15 +43,16 @@ IndoLegalBERT significantly outperformed the rule-based approach, demonstrating 
 
 ## Tech Stack
 
-Python
-PyTorch
-Transformers
-Scikit-learn
+* Python
+* PyTorch
+* HuggingFace Transformers
+* Scikit-learn
 
 ## Status
 
-🚧 Repository under development
+🚧 Actively improving documentation and adding demo inference notebook
 
 ## Author
 
 Indrayana Widhikartiko
+Data Science Student — Universitas Airlangga
